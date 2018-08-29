@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="625.0" style="-fx-background-color: lightblue;" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.VerListas">
+   <children>
+      <Button layoutX="34.0" layoutY="28.0" mnemonicParsing="false" style="-fx-background-color: white;" text="&lt;">
+         <font>
+            <Font name="Futura Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="518.0" layoutY="28.0" mnemonicParsing="false" style="-fx-background-color: white;" text="+ Articulo">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="449.0" layoutY="301.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Marcar Comprado">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="15.0" />
+         </font>
+      </Button>
+      <Button layoutX="349.0" layoutY="301.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Pendiente">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="15.0" />
+         </font>
+      </Button>
+      <Label layoutX="236.0" layoutY="305.0" text="Marcar como:">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="34.0" layoutY="340.0" text="Pendiente:">
+         <font>
+            <Font name="Apple SD GothicNeo ExtraBold" size="25.0" />
+         </font>
+      </Label>
+      <TableView layoutX="36.0" layoutY="126.0" prefHeight="164.0" prefWidth="552.0">
+        <columns>
+          <TableColumn prefWidth="137.0" text="Articulo" />
+          <TableColumn prefWidth="98.0" text="Cantidad" />
+            <TableColumn text="Unitario" />
+            <TableColumn prefWidth="123.0" text="Total" />
+            <TableColumn prefWidth="113.0" text="Estado" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
