@@ -14,11 +14,11 @@ public class Objetos {
 //* Constructor de Objetos *//
 
     public Objetos (String Nombre, Integer Cantidad, Double PrecioUnitario){
-        this.Nombre = new SimpleStringProperty(Nombre);
-        this.Cantidad = new SimpleIntegerProperty(Cantidad);
-        this.PrecioUnitario = new SimpleDoubleProperty(PrecioUnitario);
-        this.PrecioTotal = new SimpleDoubleProperty(PrecioUnitario*Cantidad);
-        this.EstadoArt = new SimpleBooleanProperty(false);
+        this.Nombre.set(Nombre);
+        this.Cantidad.set(Cantidad);
+        this.PrecioUnitario.set(PrecioUnitario);
+        this.PrecioTotal.set(PrecioUnitario*Cantidad);
+        this.EstadoArt.set(false);
 
     }
 

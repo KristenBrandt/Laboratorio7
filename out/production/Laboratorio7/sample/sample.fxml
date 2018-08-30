@@ -12,7 +12,7 @@
       <Button layoutX="483.0" layoutY="25.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Nueva Lista" />
       <Button layoutX="424.0" layoutY="344.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Editar" />
       <Button layoutX="499.0" layoutY="344.0" mnemonicParsing="false" style="-fx-background-color: white;" text="Eliminar" />
-      <Label layoutX="46.0" layoutY="25.0" prefHeight="32.0" prefWidth="138.0" text="Mis Listas" textAlignment="CENTER">
+      <Label layoutX="46.0" layoutY="23.0" prefHeight="32.0" prefWidth="138.0" text="Mis Listas" textAlignment="CENTER">
          <font>
             <Font name="Futura Bold" size="24.0" />
          </font>
